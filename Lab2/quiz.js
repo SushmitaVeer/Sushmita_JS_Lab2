@@ -45,8 +45,7 @@ function loadQuestions() {
             element.innerHTML = choices[i];
             handleOptionButton("btn" + i, choices[i]);
         }
-  
-        showProgress();
+          showProgress();
     }
   };
   
@@ -70,8 +69,6 @@ function showProgress() {
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
   };
-
-
 
 let questions = [
     new Question("JavaScript supports", ["Functions", "XHTML","CSS", "HTML"], "Functions"),
